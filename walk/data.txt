@@ -1,0 +1,12 @@
+User Data :
+( First Name, Last Name, Full Name, Email, Password, Steps, Points, Age, Height, Weight, Gender, Referral Code )
+
+Converts And Changes :
+( Convert Step To Points, Change Packages With Points )
+
+Referral System :
+( Get Point For Each Referral By My Referral ID )
+
+
+
+1|pd7IEDqCUGVW5UA630F8KIb3kZiZSh3nR9enm5Pzf0f0588c

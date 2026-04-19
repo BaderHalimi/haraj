@@ -1,0 +1,25 @@
+User-agent: *
+Disallow:
+
+Allow: /
+
+User-agent: *
+Disallow: /admin/
+Disallow: /ajax/
+Disallow: /assets/
+Disallow: /css/
+Disallow: /js/
+Disallow: /vendor/
+Disallow: /main.php
+Disallow: /index.php
+Disallow: /mix-manifest.json
+Disallow: /locale/en
+Disallow: /locale/ar
+Disallow: /auth/facebook
+Disallow: /auth/linkedin
+Disallow: /auth/twitter
+Disallow: /auth/google
+
+
+Sitemap: https://haraj-me.com/ae/sitemaps.xml
+Sitemap: https://haraj-me.com/sa/sitemaps.xml

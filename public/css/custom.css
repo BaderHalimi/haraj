@@ -1,0 +1,38 @@
+/*
+ * LaraClassifier - Classified Ads Web Application
+ * Copyright (c) BeDigit. All Rights Reserved
+ *
+ * Website: https://laraclassifier.com
+ *
+ * LICENSE
+ * -------
+ * This software is furnished under a license and may be used and copied
+ * only in accordance with the terms of such license and with the inclusion
+ * of the above copyright notice. If you Purchased from CodeCanyon,
+ * Please read the full License from here - http://codecanyon.net/licenses/standard
+ */
+
+/* Your custom CSS here... */
+
+.custom-button{
+    background: #bcd434;
+    color: #fff !important;
+    padding: 10px;
+    
+    border-radius: 10px;
+}
+
+.custom-button:lang(ar){
+    margin: 17px 0 0 5px;
+}
+
+.custom-button:lang(en){
+    margin: 17px 5px 0 0;
+}
+
+.custom-time:lang(ar){
+    float:left;
+}
+.custom-time:lang(en){
+    float:right;
+}
