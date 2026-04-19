@@ -26,15 +26,20 @@ trait SymlinkTrait
 	private function setupStorageSymlink()
 	{
 		$symlink = public_path('storage');
+		$target = storage_path('app/public');
 		
 		try {
 			if (!is_link($symlink)) {
+				if (!is_dir($target)) {
+					return;
+				}
+
 				// Symbolic links on Windows are created by symlink() which accept only absolute paths.
 				// Relative paths on Windows are not supported for symlinks: http://php.net/manual/en/function.symlink.php
 				if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
 					Artisan::call('storage:link');
 				} else {
-					symlink('../storage/app/public', './storage');
+					symlink($target, $symlink);
 				}
 			}
 		} catch (\Throwable $e) {
